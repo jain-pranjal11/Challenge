@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: Gilroy;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    background-color: #fff;
+}
+
+#nleft{
+    margin-left: 55px;
+}
+
+#nright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 55px;
+}
+
+#nright h3{
+    margin-right: 40px;
+}
+
+#nright i{
+    font-weight: 900;
+}
+
+#text{
+    position: relative;
+    top: 10%;
+    margin-left: 55px;
+    font-size: 60px;
+    line-height: 100px;
+}
+
+#text h3{
+    margin-top: 50px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#box{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    height: 40px;
+    width: 250px;
+    border-radius: 50px;
+    background-color: rgb(8, 185, 8);
+    color: #fff;
+}
+
+#box h4{
+    font-size: 17px;
+   margin-left: 25px;
+  /*  margin-top: -30px;*/
+}
+
+#arr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    font-size: 17px;
+    margin-right: 20px;
+    background-color: #fff;
+    color: rgb(8, 185, 8);
+    border-radius: 50%;
+}
+
+#line{
+    position: absolute;
+    width: 92%;
+    height: 2px;
+    margin-left: 55px;
+    background-color: #000;
+    bottom: 10%;
+}
+
+#btm{
+    position: absolute;
+    bottom: 3%;
+    margin-left: 80px;
+}
+
+#circle{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: orangered;
+    color: #fff;
+    font-size: 25px;
+    top: 25%;
+    left: 20%;
+    z-index: 1;
+}
+
+#circle2{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+    height: 25px;
+    border-radius: 50px;
+    top: 26%;
+    left: 40%;
+    background-color: purple;
+    color: #fff;
+    z-index: 1;
+}
+
+#circle2 h4{
+    margin-left: 15px;
+}
+
+#circle2 i{
+    margin-right: 15px;
+    background-color: #fff;
+    color: purple;
+    border-radius: 50%;
+}
+
+#circle3{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 200;
+    top: 38%;
+    left: 11%;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(126, 126, 12);
+    z-index: 1;
+}
+
+#circle4{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    width: 90px;
+    height: 25px;
+    border-radius: 50px;
+    top: 39%;
+    left: 15%;
+    background-color: blue;
+    color: #fff;
+    z-index: 1;
+}
+
+#square{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    width: 25px;
+    height: 30px;
+    top: 46%;
+    left: 29.5%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: blue;
+    color: #fff;
+    z-index: 1;
+}
+
+#square2{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    width: 55px;
+    height: 30px;
+    top: 45%;
+    left: 43%;
+    border-radius: 10px;
+    background-color: red;
+    color: #fff;
+    transform: rotate(30deg);
+    z-index: 1;
+}
+
+#square2 h4{
+    margin-left: 10px;
+}
+
+#square2 i{
+    margin-right: 10px;
+}
+
+#square3{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 300;
+    color: #fff;
+    width: 220px;
+    height: 35px;
+    word-spacing: 5px;
+    top: 58%;
+    left: 11%;
+    z-index: 1;
+}
